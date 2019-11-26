@@ -11,6 +11,7 @@ desc 'outputs hello to the terminal'
 end
 
 task :migrate => :environment do
+  ...
 
 task :environment do 
   require_relative './config/environment'
